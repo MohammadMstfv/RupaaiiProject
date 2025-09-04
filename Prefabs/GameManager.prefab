@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7169274802649042953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5213312184139498591}
+  - component: {fileID: 8519768189420668049}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5213312184139498591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169274802649042953}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05718778, y: -0.50377077, z: 0.055318847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8519768189420668049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7169274802649042953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9dd221d29b60442b9a34b7ecadfbf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 5589249800476750240, guid: 65d5b0ee55ac852429b895578ff01027, type: 3}
+  ballPrefab: {fileID: 1275715614271542877, guid: 5803f3ff703fd0d45892fb67d686bc6f, type: 3}
+  sawBladePrefab: {fileID: 6628774962867245938, guid: 04b9882a0805e364e9fa506f8ebcdd1d, type: 3}
+  bigSawbladePrefab: {fileID: 3675888391436795513, guid: d14a5821016f2b54291d50eabf974c6c, type: 3}
+  ballSpawnPoint: {fileID: 3734971286160346046, guid: 90ff1301f0cddcb479cbdb482bc8740a, type: 3}
+  shoeSpawnPoint: {fileID: 6346619496425315867, guid: 4d3836018c75461458e513d7354baf07, type: 3}
+  bigBladeSpawnPoint: {fileID: 76150071335088578, guid: e420ab574af26bf4ea6c87a2b5b4c93a, type: 3}
+  playerHealth: 3
+  coins: 0
+  highScore: 0
